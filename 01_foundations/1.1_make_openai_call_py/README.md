@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 response = openai.chat.completions.create(
-    model="gpt-4-0613",
+    model="gpt-3.5-turbo",
     messages=[{"role": "user", "content": "Hello! Tell me a joke."}]
 )
 
