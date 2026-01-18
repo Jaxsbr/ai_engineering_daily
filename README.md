@@ -56,6 +56,20 @@ Before starting any TypeScript-based lessons, set up your environment:
 
 **Note:** Each TypeScript lesson directory will have its own `node_modules` folder and `package.json`. Dependencies are managed locally per lesson to prevent conflicts.
 
+## Prerequisites
+
+Before starting any lessons, you'll need to set up your OpenAI account and API access:
+
+### OpenAI Account Setup
+
+1. **Sign up for OpenAI account** - Visit [OpenAI Platform](https://platform.openai.com/) and create an account if you don't have one
+2. **Get API key** - Navigate to [API Keys](https://platform.openai.com/api-keys) and create a new API key
+3. **Set up environment variables** - In each lesson directory that requires API access:
+   - Copy `.env_example` to `.env`: `cp .env_example .env`
+   - Update `your_api_key_here` in `.env` with your actual API key
+
+**Security Note:** The `.gitignore` file in this repository is configured to ignore `.env` files, preventing accidental commits of your API keys.
+
 ## 01 Foundation
 
 - 1.1 Make an API(OpenAI) call

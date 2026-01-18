@@ -2,13 +2,12 @@
 
 **Goal:** Make your first OpenAI API call
 
+**Prerequisites:**
+- OpenAI account and API key setup (see main README.md Prerequisites section)
+- Python environment setup (see main README.md Environment Setup section)
+
 **Steps:**
-1. Sign up for OpenAI account
-2. Get API key
-3. Copy `.env_example` and rename it to `.env`: `cp .env_example .env`
-4. Update `your_api_key_here` in `.env` to your API key. (Note the .gitignore in this repo is configured to ignore .env files and thus prevent you from making an accidental api key commit)
-5. Set up Python environment (see main README.md for instructions)
-6. Create `hello_ai.py`:
+1. Create `hello_ai.py`:
 
 ```python
 import openai
@@ -26,8 +25,8 @@ response = openai.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
-7. Run it, see response: `python3 hello_ai.py`
-8. Laugh: "Sure! Why did the scarecrow win an award? Because he was outstanding in his field!"
+2. Run it, see response: `python3 hello_ai.py`
+3. Laugh: "Sure! Why did the scarecrow win an award? Because he was outstanding in his field!"
 
 **Done When:** You see an AI-generated joke in your terminal
 

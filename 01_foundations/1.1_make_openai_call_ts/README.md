@@ -2,13 +2,12 @@
 
 **Goal:** Make your first OpenAI API call using TypeScript
 
+**Prerequisites:**
+- OpenAI account and API key setup (see main README.md Prerequisites section)
+- Node.js environment setup (see main README.md Environment Setup section)
+
 **Steps:**
-1. Sign up for OpenAI account (if you haven't already)
-2. Get API key from [OpenAI Platform](https://platform.openai.com/api-keys)
-3. Copy `.env_example` and rename it to `.env`: `cp .env_example .env`
-4. Update `your_api_key_here` in `.env` to your API key. (Note: the .gitignore in this repo is configured to ignore .env files and thus prevent you from making an accidental API key commit)
-5. Set up Node.js environment (see main README.md for instructions)
-6. Install dependencies: `npm install`
+1. Install dependencies: `npm install`
 7. Create `hello_ai.ts`:
 
 ```typescript
@@ -39,8 +38,8 @@ async function main() {
 main();
 ```
 
-8. Run it, see response: `npm start` or `npx ts-node hello_ai.ts`
-9. Laugh: "Sure! Why was the math book sad?
+2. Run it, see response: `npm start` or `npx ts-node hello_ai.ts`
+3. Laugh: "Sure! Why was the math book sad?
 Because it had too many problems."
 
 **Done When:** You see an AI-generated joke in your terminal
