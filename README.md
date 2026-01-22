@@ -74,4 +74,7 @@ Before starting any lessons, you'll need to set up your OpenAI account and API a
 
 - 1.1 Make an API(OpenAI) call
   - [Python version](01_foundations/1.1_make_openai_call_py/)
-  - [TypeScript version](01_foundations/1.1_make_openai_call_ts/) 
+  - [TypeScript version](01_foundations/1.1_make_openai_call_ts/)
+- 1.2 Structure LLM Output
+  - [Python version](01_foundations/1.2_structure_llm_output_py/)
+  - [TypeScript version](01_foundations/1.2_structure_llm_output_ts/) 
